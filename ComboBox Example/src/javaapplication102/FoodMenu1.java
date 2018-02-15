@@ -29,10 +29,10 @@ public class FoodMenu1 extends JFrame implements ActionListener{
         f1.add(b);
         f1.add(cb);
         f1.add(l2);
-        setLayout(null);
-        setSize(400,400);  
-        setVisible(true);  
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f1.setLayout(null);
+        f1.setSize(400,400);  
+        f1.setVisible(true);  
+        f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
     // TODO code application logic here
