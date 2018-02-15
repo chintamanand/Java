@@ -12,6 +12,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 public class FoodMenu extends JFrame implements ActionListener{
+    
 JFrame f;
 JCheckBox j1;
 JCheckBox j2;
@@ -20,7 +21,7 @@ JCheckBox j4;
 JCheckBox j5;
 JCheckBox j6;
 JLabel l1;
-//JButton b1;
+JButton b1;
     public FoodMenu(){
         f=new JFrame("Food Menu");
         
@@ -45,9 +46,9 @@ JLabel l1;
         j6=new JCheckBox("Fish Fry       : 100/-");
         j6.setBounds(100,350,150,30);
         
-         JButton b=new JButton("Order");  
-        b.setBounds(100,250,80,30);  
-        b.addActionListener(this);  
+         JButton b=new JButton("Order It");  
+        b.setBounds(100,550,150,30);  
+        b.addActionListener((ActionListener)this);  
         
         f.add(j1);
         f.add(j2);
@@ -55,12 +56,12 @@ JLabel l1;
         f.add(j4);
         f.add(j5);
         f.add(j6);
-        
+        f.add(b1);
         f.add(l1);
-        setLayout(null);
-        setSize(400,400);  
-        setVisible(true);  
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setLayout(null);
+        f.setSize(400,400);  
+        f.setVisible(true);  
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
     // TODO code application logic here
@@ -71,6 +72,7 @@ JLabel l1;
     public void actionPerformed(ActionEvent ae) {
          float amount=0;  
         String msg="";  
+        if(ae.getSource()){
         if(j1.isSelected()){  
             amount+=100;  
             msg="Briyani : 100\n";  
@@ -97,6 +99,6 @@ JLabel l1;
         } 
         msg+="-----------------\n";  
         JOptionPane.showMessageDialog(this,msg+"Total: "+amount); 
-    }
+    }}
     
 }
