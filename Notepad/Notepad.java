@@ -77,8 +77,6 @@ public class Notepad extends JFrame implements ActionListener{
        if(e.getSource()==copy)    
         a.copy();    
        if(e.getSource()==selectall)    
-      a.selectAll();    
-      
-    }
+      a.selectAll();   }
     
 }
