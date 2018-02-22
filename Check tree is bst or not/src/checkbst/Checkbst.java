@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package checkbst;
 import java.util.*;
  class Node{
@@ -43,8 +39,6 @@ public class Checkbst {
        return (isbst(curr.left) && isbst(curr.right));
       
      return false;
-     
-       //return 0;
    }
     public static void main(String[] args) {
         // TODO code application logic here
@@ -57,6 +51,4 @@ public class Checkbst {
                 root=insert(root,data);
             }
             System.out.println("The given tree is binary tree or not: "+isbst(root));
-    }
-    
-}
+    }}
