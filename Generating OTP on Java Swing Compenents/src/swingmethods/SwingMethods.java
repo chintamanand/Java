@@ -72,9 +72,10 @@ public class SwingMethods extends Frame implements ActionListener{
       if(e.getSource()==b1){
       String t12=a.getText();
       String words[]=t12.split("\\s");
-      
-      l1.setText("Character Count: "+t12.length());//Character count
-      l2.setText("word count: "+words.length);//word count
+      //Character count
+      l1.setText("Character Count: "+t12.length());
+          //word count
+      l2.setText("word count: "+words.length);
      }
      String t1=a.getText();
      if(e.getSource()==b1){
