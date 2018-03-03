@@ -58,6 +58,7 @@ public class Encryption {
      
      }
     private static Key generateKey() throws Exception {
+        //this is the secret Key
         String key = "ef50a0nf2c3a3n5d";
         byte [] key1=key.getBytes();
         System.out.println("After Converting the Key into bytes: "+key1);
