@@ -19,7 +19,8 @@ public class RuntimeSampleProgram {
   System.out.println("Free Memory: "+r.freeMemory());  
     
   for(int i=0;i<10000;i++){  
-   new RuntimeSampleProgram();  //annoynmous creation of object -->so,this is the garbage
+   new RuntimeSampleProgram(); 
+      //annoynmous creation of object -->so,this is the garbage
   }  
   System.out.println("After creating 10000 instance, Free Memory: "+r.freeMemory());  
   System.gc();  
