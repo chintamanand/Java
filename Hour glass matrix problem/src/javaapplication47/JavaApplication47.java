@@ -5,10 +5,6 @@
  */
 package javaapplication47;
 import java.util.*;
-/**
- *
- * @author mahe
- */
 public class JavaApplication47 {
 
     /**
