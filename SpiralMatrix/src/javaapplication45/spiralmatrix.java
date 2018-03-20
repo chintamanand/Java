@@ -6,11 +6,6 @@
 package javaapplication45;
 
 import java.util.Scanner;
-
-/**
- *
- * @author mahe
- */
 public class spiralmatrix 
 {
     // Function print matrix in spiral form
