@@ -60,7 +60,6 @@ JButton b1;
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
-    // TODO code application logic here
      new FoodMenu();
     }
 
@@ -94,5 +93,6 @@ JButton b1;
             msg+="Fish Fry  : 100\n";  
         } 
         msg+="-----------------\n";  
+            //This gives message as a POP message
         JOptionPane.showMessageDialog(this,msg+"Total: "+amount); 
     }}}
