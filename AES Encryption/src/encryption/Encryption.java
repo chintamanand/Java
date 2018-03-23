@@ -5,7 +5,6 @@
  */
 
 package encryption;
-
 import java.security.InvalidKeyException;
 import javax.crypto.Cipher;
 import javax.crypto.Mac;
@@ -19,6 +18,7 @@ import java.security.NoSuchAlgorithmException;
 import javax.crypto.Cipher;
 import sun.misc.BASE64Encoder;
 import sun.misc.BASE64Decoder;   
+
 
 public class Encryption {
     public String encrypted;
