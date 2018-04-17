@@ -25,6 +25,4 @@ public class RuntimeSampleProgram {
   System.out.println("After creating 10000 instance, Free Memory: "+r.freeMemory());  
   System.gc();  
   System.out.println("After gc(), Free Memory: "+r.freeMemory());  
-    }
-    
-}
+    }}
