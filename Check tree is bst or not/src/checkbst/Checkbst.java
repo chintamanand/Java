@@ -1,4 +1,3 @@
-
 package checkbst;
 import java.util.*;
  class Node{
