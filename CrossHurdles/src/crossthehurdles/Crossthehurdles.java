@@ -6,6 +6,7 @@
 
 package crossthehurdles;
 
+
 import java.util.*;
 public class Crossthehurdles {
     public static void main(String[] args) {
