@@ -5,10 +5,6 @@
  */
 package yesxorno;
 import java.util.*;
-/**
- *
- * @author mahe
- */
 public class YesXorNo {
     public static void main(String[] args) {
         // TODO code application logic here
