@@ -5,11 +5,6 @@
  */
 package factdigitsum;
 import java.util.*;
-
-/**
- *
- * @author mahe
- */
 public class Factdigitsum {
     public static void main(String[] args) {
         // TODO code application logic here
