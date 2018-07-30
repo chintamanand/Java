@@ -42,6 +42,4 @@ public class AllpossibleSubstring {
         
         System.out.println("The count will be: "+counter);
         }
-    }
-    
-}
+    }}
