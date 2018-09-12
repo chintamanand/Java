@@ -9,10 +9,12 @@ import java.util.*;
 public class AmicableNumber {
 static int d=50;
 
+    
     int change(int d){
         d=d+50;
         return d;
     }
+    
      static int sumdivisor(int a){
         int res=0;
         for(int i=2;i<Math.sqrt(a);i++){
