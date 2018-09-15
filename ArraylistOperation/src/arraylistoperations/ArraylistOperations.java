@@ -7,7 +7,6 @@ package arraylistoperations;
 import java.util.*;
 public class ArraylistOperations {
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner scan=new Scanner(System.in);
         System.out.println("enter the number of testcases:");
         int t=scan.nextInt();
