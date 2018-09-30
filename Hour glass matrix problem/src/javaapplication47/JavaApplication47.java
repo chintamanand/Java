@@ -6,11 +6,7 @@
 package javaapplication47;
 import java.util.*;
 public class JavaApplication47 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public static void main(String[] args) {
         // TODO code application logic here
         int i,j=0,h=0;
         int sum[] = new int[16];
