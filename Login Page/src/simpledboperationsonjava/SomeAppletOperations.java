@@ -70,6 +70,7 @@ public class SomeAppletOperations extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
      if (e.getSource() == resetButton) {
+         //clears the text in the JFrame
             l1.setText("");
             l2.setText("");
         }}

@@ -11,6 +11,7 @@ public class tripmorphic{
      int m=n*n*n;
         return (m);
     }
+    //Boolean Function to Check
     public static boolean check(int n){
         int m=n*n*n;
         while(n>0){

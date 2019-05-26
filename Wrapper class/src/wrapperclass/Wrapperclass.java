@@ -12,10 +12,6 @@ import java.util.Scanner;
  * @author mahe
  */
 public class Wrapperclass {
-
-    /**
-     * @param args the command line arguments
-     */
     static int isprime(int n){
         int flag=0;
          if(n==0 || n==1){ 

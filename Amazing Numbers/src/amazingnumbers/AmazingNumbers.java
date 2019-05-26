@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
 package amazingnumbers;
 import java.util.*;
-
 public class AmazingNumbers {
     public static void main(String[] args) {
         // TODO code application logic here

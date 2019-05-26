@@ -5,6 +5,7 @@
  */
 package ropecutting;
 import java.util.*;
+
 /**
  *
  * @author mahe
@@ -59,7 +60,8 @@ return small;
                 a[j]=a[j]-small;
       
      //  System.out.println("Array after subtraction"+a[i]);
-       if(a[j]>0){
+       
+if(a[j]>0){
        count++; }
        System.out.print(count + " ");
       }
