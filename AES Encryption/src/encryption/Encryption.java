@@ -13,7 +13,7 @@ import javax.crypto.Cipher;
 import sun.misc.BASE64Encoder;
 import sun.misc.BASE64Decoder;   
 
-//anand testing
+//Anand testing
 public class Encryption {
     public String encrypted;
    public static void main(String[] args) throws Exception {
